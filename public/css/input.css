@@ -44,5 +44,36 @@
 @font-face {
   font-family: 'Noto Sans JP';
   font-style: normal;
-  src: url(_NotoSansJP-VariableFont_wght.ttf);
+  font-weight: 400;
+  src: url(_NotoSansJP-Regular.ttf);
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 500;
+  src: url(_NotoSansJP-Medium.ttf);
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 600;
+  src: url(_NotoSansJP-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 700;
+  src: url(_NotoSansJP-Bold.ttf);
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 800;
+  src: url(_NotoSansJP-ExtraBold.ttf);
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 900;
+  src: url(_NotoSans-JPBlack.ttf);
 }
