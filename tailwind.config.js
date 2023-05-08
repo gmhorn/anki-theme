@@ -42,7 +42,11 @@ module.exports = {
       "outline-variant": "#49454e",
       "scrim": "#000000",
     },
-    extend: {},
+    extend: {
+      gridTemplateColumns: {
+        'shrink-left': 'auto minmax(0, 1fr)',
+      }
+    },
   },
   plugins: [],
 }
