@@ -20,25 +20,25 @@
   
   <hr class="text-surface-variant"/>
 
-  <div class="p-6 space-y-4">
+  <div class="p-6 space-y-8">
     <p class="text-2xl font-semibold text-center">
       Idling one's life away
     </p>
 
-    <div class="grid grid-cols-shrink-left gap-x-4 gap-y-2 px-4 py-2 rounded-md bg-secondary-container text-on-secondary-container">
-      <div class="font-bold text-right text-primary">Reading</div>
-      <div class="">Some reading extra long lorem ipsum dolor sit amet</div>
-      <div class="font-bold text-right text-primary">Category</div>
-      <div class="">Some category</div>
-    </div>
+    <dl class="grid grid-cols-shrink-left gap-x-4 gap-y-2 px-4 py-2 rounded-md bg-secondary-container text-on-secondary-container">
+      <dt class="font-bold text-right text-primary">Reading</dt>
+      <dd>Some reading extra long lorem ipsum dolor sit amet</dd>
+      <dt class="font-bold text-right text-primary">Category</dt>
+      <dd>Some category</dd>
+    </dl>
 
-    <button class="bg-on-secondary p-4 peer">
-      <a href="https://www.google.com">Jisho</a>
-    </button>
-
-    <ul class="flex flex-row justify-around">
-      <li class="text-center border-2 border-gray-700"><a href="#">Jisho</a></li>
-      <li class="text-center border-2 border-gray-700"><a href="#">Japan Dict</a></li>
+    <ul class="flex flex-row justify-around py-4">
+      <li>
+        <a class="px-8 py-2 rounded-full bg-highlight text-on-highlight" href="#">Japan Dict</a>
+      </li>
+      <li>
+        <a class="px-8 py-2 rounded-full bg-highlight text-on-highlight" href="https://www.google.com" target="_blank">Jisho</a>
+      </li>
     </ul>
   </div>
 
