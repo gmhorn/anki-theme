@@ -5,30 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/_output.css" rel="stylesheet">
 </head>
-<body class="font-sans">
+<body>
+<div class="container mx-auto font-sans bg-surface text-on-surface">
   
-  <div class="container mx-auto p-6 border-2 space-y-4 border-gray-900">
+  <div class="p-6 space-y-4">
     <h2 class="text-lg font-semibold">
-      <span class="font-bold">English</span>
+      <span class="font-bold text-error">English</span>
       meaning of:
     </h2>
-    <div class="font-sans-jp text-4xl font-medium text-center">
+    <div class="font-sans-jp text-4xl font-medium text-center text-secondary">
       酔生夢死
     </div>
   </div>
   
   <hr/>
 
-  <div class="container mx-auto p-6 space-y-4 border-2 border-gray-900">
+  <div class="p-6 space-y-4">
     <p class="text-2xl font-semibold text-center">
       Idling one's life away
     </p>
 
-    <table class="table-auto border-separate border-spacing-2 border-2 border-red-600">
+    <table class="table-auto border-separate border-spacing-2">
+      <colgroup>
+        <col span="1", class="bg-primary-container text-on-primary-container m-2"/>
+        <col class="px-4 border-8 border-error text-error-container"/>
+      </colgroup>
       <tbody>
         <tr>
-          <td class="bg-green-900 text-fuchsia-400 p-2">Reading</td>
-          <td>The reading</td>
+          <td>Reading</td>
+          <td class="border-error text-error-container">The reading</td>
         </tr>
         <tr>
           <td>Category</td>
@@ -42,5 +47,7 @@
       <li class="text-center border-2 border-gray-700"><a href="#">Japan Dict</a></li>
     </ul>
   </div>
+
+</div>
 </body>
 </html>
