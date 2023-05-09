@@ -9,6 +9,9 @@
 }
 
 @layer base {
+  body {
+    @apply flex flex-col p-6 gap-8 bg-surface text-on-surface;
+  }
   /* font-family: 'Noto Sans', sans-serif; */
   @font-face {
     font-family: 'Noto Sans';

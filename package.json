@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "node server.js",
-    "tailwind": "npx tailwindcss -i ./public/css/input.css -o ./public/dist/_output.css --watch",
+    "tailwind": "npx tailwindcss -i ./public/css/main.css -o ./public/dist/_theme.css --watch",
     "package:fonts": "node scripts/package-fonts.js"
   },
   "author": "",
