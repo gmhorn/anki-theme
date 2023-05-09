@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ['Noto Sans', 'sans-serif'],
-      'sans-jp': ['Noto Sans JP', 'Noto Sans', 'sans-serif'],
+      jp: ['Noto Sans JP', 'Noto Sans', 'sans-serif'],
     },
     colors: {
       "primary": "#cfbcff",
