@@ -12,41 +12,45 @@
     <style>
       @import url(/dist/_theme.css);
     </style>
-    <!-- CONTENT GOES HERE -->
-    <div>
-      <h2>
-        <span>English</span>
-        meaning of:
-      </h2>
-      <p lang="jp">
-        {{Expression}}
+
+    <!-- WRAPPER TO CONTROL CARD CONTENT -->
+    <div class="card-content">
+      <div class="prompt">
+        <h2>
+          <span>English</span>
+          meaning of:
+        </h2>
+        <p lang="jp">
+          {{Expression}}
+        </p>
+      </div>
+  
+      <hr/>
+  
+      <p>
+        {{Meaning}}
       </p>
+  
+      <dl>
+        <dt>Reading</dt>
+        <dd>{{Reading}}</dd>
+        <dt>Category</dt>
+        <dd>{{Category}}</dd>
+        <dt>Particles</dt>
+        <dd>{{Particles}}</dd>
+      </dl>
+  
+      <ul>
+        <li>
+          <a href="https://www.japandict.com/?s={{Expression}}">Japan Dict</a>
+        </li>
+        <li>
+          <a href="https://jisho.org/search/{{Expression}}">Jisho</a>
+        </li>
+      </ul>
     </div>
-
-    <hr/>
-
-    <p>
-      {{Meaning}}
-    </p>
-
-    <dl>
-      <dt>Reading</dt>
-      <dd>{{Reading}}</dd>
-      <dt>Category</dt>
-      <dd>{{Category}}</dd>
-      <dt>Particles</dt>
-      <dd>{{Particles}}</dd>
-    </dl>
-
-    <ul>
-      <li>
-        <a href="https://www.japandict.com/?s={{Expression}}">Japan Dict</a>
-      </li>
-      <li>
-        <a href="https://jisho.org/search/{{Expression}}">Jisho</a>
-      </li>
-    </ul>
     <!-- CONTENT GOES HERE -->
+
   </div>
 </body>
 </html>
