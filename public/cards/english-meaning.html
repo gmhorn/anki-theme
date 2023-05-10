@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/_output.css" rel="stylesheet">
+</head>
+<body>
+<!-- <div class="container flex flex-col mx-auto h-screen font-sans bg-surface text-on-surface"> -->
+<div class="card">
+
+  <div>
+    <h2>
+      <span>English</span>
+      meaning of:
+    </h2>
+    <p>
+      {{Expression}}
+    </p>
+  </div>
+  
+  <hr/>
+
+  <p>
+    {{Meaning}}
+  </p>
+
+  <dl>
+    <dt>Reading</dt>
+    <dd>{{Reading}}</dd>
+    <dt>Category</dt>
+    <dd>{{Category}}</dd>
+    <dt>Particles</dt>
+    <dd>{{Particles}}</dd>
+  </dl>
+
+  <ul>
+    <li>
+      <a href="https://www.japandict.com/?s={{Expression}}">Japan Dict</a>
+    </li>
+    <li>
+      <a href="https://jisho.org/search/{{Expression}}">Jisho</a>
+    </li>
+  </ul>
+</div>
+</body>
+</html>
