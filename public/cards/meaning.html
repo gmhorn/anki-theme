@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="bg-surface">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,35 +17,35 @@
     <div class="card-content">
       <div class="prompt">
         <h2>
-          <span>English</span>
+          <span class="font-bold text-tertiary">English</span>
           meaning of:
         </h2>
-        <p lang="jp">
+        <p class="font-jp text-primary">
           {{Expression}}
         </p>
       </div>
   
       <hr/>
   
-      <p>
+      <p class="answer text-tertiary">
         {{Meaning}}
       </p>
   
-      <dl>
+      <dl class="info-table">
         <dt>Reading</dt>
-        <dd>{{Reading}}</dd>
+        <dd class="font-jp">{{Reading}}</dd>
         <dt>Category</dt>
         <dd>{{Category}}</dd>
         <dt>Particles</dt>
-        <dd>{{Particles}}</dd>
+        <dd class="font-jp">{{Particles}}</dd>
       </dl>
   
-      <ul>
+      <ul class="links">
         <li>
-          <a href="https://www.japandict.com/?s={{Expression}}">Japan Dict</a>
+          <a class="link-button" href="https://www.japandict.com/?s={{Expression}}">Japan Dict</a>
         </li>
         <li>
-          <a href="https://jisho.org/search/{{Expression}}">Jisho</a>
+          <a class="link-button" href="https://jisho.org/search/{{Expression}}">Jisho</a>
         </li>
       </ul>
     </div>

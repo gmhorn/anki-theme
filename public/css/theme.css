@@ -4,11 +4,52 @@
 
 @layer components {
   .card-content {
-    @apply flex flex-col gap-4;
+    @apply flex flex-col gap-6 p-6;
+  }
+
+  .prompt {
+    @apply flex flex-col gap-2;
+  }
+
+  .prompt > h2 {
+    @apply text-lg font-semibold text-left;
+  }
+
+  .prompt > p {
+    @apply text-4xl font-medium text-center;
+  }
+
+  .answer {
+    @apply text-2xl font-semibold text-center;
+  }
+
+  dl.info-table {
+    @apply grid gap-x-4 gap-y-2 m-4 p-2 rounded-md bg-surface-variant text-on-surface-variant;
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  dl.info-table > dt {
+    @apply font-bold text-right;
+  }
+
+  dl.info-table > dd {
+    @apply text-left;
+  }
+
+  ul.links {
+    @apply flex flex-row justify-around py-4 mt-auto;
+  }
+
+  .link-button {
+    @apply px-8 py-2 rounded-full bg-highlight !text-on-highlight;
   }
 }
 
 @layer base {
+  html {
+    @apply font-sans text-left text-on-surface;
+  }
+
   /* font-family: 'Noto Sans', sans-serif; */
   @font-face {
     font-family: 'Noto Sans';
