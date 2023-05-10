@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="card">
+  
+  <div id="_mark" hidden>*</div>
+  <div id="_flag" hidden></div>
+  <div id="qa" style="opacity: 1">
+    <style>
+      @import url(/dist/_theme.css);
+    </style>
+    <!-- CONTENT GOES HERE -->
+    <div>
+      <h2>
+        <span>English</span>
+        meaning of:
+      </h2>
+      <p lang="jp">
+        {{Expression}}
+      </p>
+    </div>
+
+    <hr/>
+
+    <p>
+      {{Meaning}}
+    </p>
+
+    <dl>
+      <dt>Reading</dt>
+      <dd>{{Reading}}</dd>
+      <dt>Category</dt>
+      <dd>{{Category}}</dd>
+      <dt>Particles</dt>
+      <dd>{{Particles}}</dd>
+    </dl>
+
+    <ul>
+      <li>
+        <a href="https://www.japandict.com/?s={{Expression}}">Japan Dict</a>
+      </li>
+      <li>
+        <a href="https://jisho.org/search/{{Expression}}">Jisho</a>
+      </li>
+    </ul>
+    <!-- CONTENT GOES HERE -->
+  </div>
+</body>
+</html>

@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .card {
-    @apply container flex flex-col mx-auto p-6 gap-8 h-screen bg-surface text-on-surface
-  }
-}
-
 @layer base {
   /* font-family: 'Noto Sans', sans-serif; */
   @font-face {
@@ -82,6 +76,6 @@
     font-family: 'Noto Sans JP';
     font-style: normal;
     font-weight: 900;
-    src: url(_NotoSans-JPBlack.ttf);
+    src: url(_NotoSansJP-Black.ttf);
   }
 }
