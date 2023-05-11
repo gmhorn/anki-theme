@@ -8,19 +8,25 @@
   }
 
   .prompt {
-    @apply flex flex-col gap-2;
+    @apply flex flex-col gap-4;
   }
 
   .prompt > h2 {
-    @apply text-lg font-semibold text-left;
+    @apply text-lg font-medium text-left;
   }
 
   .prompt > p {
-    @apply text-4xl font-medium text-center;
+    @apply text-2xl font-medium text-center;
+  }
+  .prompt > p.font-jp {
+    @apply text-4xl;
   }
 
   .answer {
     @apply text-2xl font-semibold text-center;
+  }
+  .answer.font-jp {
+    @apply text-4xl;
   }
 
   dl.info-table {
@@ -37,7 +43,7 @@
   }
 
   dl.info-table > dd {
-    @apply text-left;
+    @apply font-medium text-left;
   }
 
   ul.links {
