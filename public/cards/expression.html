@@ -1,0 +1,47 @@
+<!doctype html>
+<html class="bg-surface">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="card">
+  
+  <div id="_mark" hidden>*</div>
+  <div id="_flag" hidden></div>
+  <div id="qa" style="opacity: 1">
+    <style>
+      @import url(/dist/_theme.css);
+    </style>
+
+<!-- WRAPPER TO CONTROL CARD CONTENT -->
+<div class="card-content">
+
+<div class="prompt">
+  <h2><span class="font-bold text-primary">Japanese</span> expression for:</h2>
+  <p class="text-tertiary">{{Meaning}}</p>
+</div>
+
+<hr/>
+
+<p class="answer font-jp text-primary">{{Expression}}</p>
+
+<dl class="info-table">
+  <dt>Reading</dt>
+  <dd class="font-jp">{{Reading}}</dd>
+  <dt>Category</dt>
+  <dd>{{Category}}</dd>
+  <dt>Particles</dt>
+  <dd class="font-jp">{{Particles}}</dd>
+</dl>
+
+<ul class="links">
+  <li><a class="link-button" href="https://www.japandict.com/?s={{Expression}}">Japan Dict</a></li>
+  <li><a class="link-button" href="https://jisho.org/search/{{Expression}}">Jisho</a></li>
+</ul>
+
+</div>
+<!-- CONTENT GOES HERE -->
+
+  </div>
+</body>
+</html>

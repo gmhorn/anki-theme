@@ -1,0 +1,92 @@
+.card {
+  font-family: 'Noto Sans';
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #e6e1e6;
+  background-color: #1c1b1e;
+  padding: 1em;
+}
+
+.prompt {
+  text-align: left;
+  padding: 20px 30px 0px;
+  margin-bottom: 20px;
+}
+
+.question {
+  font-size: 32px;
+  font-weight: 600;
+  padding: 0px 20px 20px;
+  margin-top: 20px;
+}
+
+.answer {
+  margin: 30px 20px 20px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.large {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.small {
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0px 0px 0px;
+}
+
+.link {
+  text-align: left;
+  padding: 0em;
+  margin: 1em;
+}
+
+.link a {
+  color: #a8c8ff;
+}
+
+:lang(ja-jp) {
+  font-family: 'Noto Sans JP', 'Hiragino Sans';
+}
+
+.color-primary {
+  color: #cfbcff;
+}
+
+.color-secondary {
+  color: #cbc2db;
+}
+
+.color-tertiary {
+  color: #efb8c8;
+}
+
+.color-highlight {
+  color: #5ddcb7;
+}
+
+.outline {
+  color: #948f99;
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url("_NotoSans-JP.ttf");
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url("_NotoSans-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url("_NotoSans-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
