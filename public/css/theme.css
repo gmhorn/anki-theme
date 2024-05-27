@@ -34,7 +34,7 @@
     grid-template-columns: auto minmax(0, 1fr);
   }
 
-  dl.info-table:empty {
+  dl.info-table:not(:has(dt)) {
     @apply collapse;
   }
 
